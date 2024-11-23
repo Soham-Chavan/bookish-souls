@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/USER/Documents/node_js_mysql_prac/frontend/src/components/homeUI.css"],"sourcesContent":[".container-box{\r\n    margin-top: 15px;\r\n    height: 85vh;\r\n    display: flex;\r\n    align-items: center;\r\n    background-image: radial-gradient(circle, rgb(57, 56, 61), rgb(35, 38, 72),rgb(26, 26, 59), rgb(26, 25, 52))\r\n}\r\n\r\n.signin-signup-btns{\r\n    width: 70%;\r\n    padding-left: 20px;\r\n    padding-right: 20px;\r\n    padding-top: 10px;\r\n    padding-bottom: 10px;\r\n    display: flex;\r\n    gap: 15px;\r\n    margin-left: 5%;\r\n    flex-wrap: wrap;\r\n    /* background-color: blueviolet; */\r\n}\r\n\r\n.be-bookworm{\r\n    /* background-color:blue; */\r\n    margin-bottom: 6%;\r\n    font-size: 20px;\r\n    font-weight: 900;\r\n    color: aliceblue;\r\n    font-family:Georgia, 'Times New Roman', Times, serif;\r\n}\r\n\r\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;;;;;;;AAaA"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/USER/Documents/node_js_mysql_prac/frontend/src/components/navbar.css"],"sourcesContent":[".bookish{\r\n    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\r\n}"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

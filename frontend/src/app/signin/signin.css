@@ -1,0 +1,112 @@
+/* Background and container */
+.signin-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4a1f77, #2b0c56);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    position: relative;
+    animation: waveBackground 10s ease-in-out infinite;
+}
+
+/* Waving background animation */
+@keyframes waveBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+/* Sign-in form styles */
+.signin-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+/* Form title */
+.signin-message {
+    color: #d4a2ff; /* Soft light purple */
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin: 5%;
+}
+
+/* Label and input field styles */
+.label {
+    font-size: 1.1rem;
+    color: #d1d1d1;
+    display: block;
+    margin: 12px 0 5px;
+}
+
+/* Input fields */
+.signin-input-field {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #8e44ad; /* Dark purple border */
+    background: #3a1f59; /* Dark purple background for inputs */
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.signin-input-field:focus {
+    border-color: #9b59b6; /* Light purple on focus */
+    background-color: #2f1a3f;
+    outline: none;
+}
+
+/* Button styles */
+.signin-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #9b59b6; /* Light purple */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.signin-btn:hover {
+    background-color: #8e44ad; /* Darker purple on hover */
+}
+
+.signin-btn:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+/* Small animations for inputs and button */
+.signin-input-field, .signin-btn {
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

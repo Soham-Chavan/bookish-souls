@@ -1,0 +1,35 @@
+/* [project]/src/app/contact/contact.css [app-client] (css) */
+.submit {
+  background: #000;
+  color: #f0f8ff;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.form-container {
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  background-color: bisque;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.main-form {
+  background-color: #8a2be2;
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  flex-grow: 1;
+  width: fit-content;
+}
+
+.msg {
+  height: 100px;
+}
+
+
+/*# sourceMappingURL=src_app_contact_contact_f3cf19.css.map*/

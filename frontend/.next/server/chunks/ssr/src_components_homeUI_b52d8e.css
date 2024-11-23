@@ -1,0 +1,30 @@
+/* [project]/src/components/homeUI.css [app-client] (css) */
+.container-box {
+  margin-top: 15px;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  background-image: radial-gradient(circle, #39383d, #232648, #1a1a3b, #1a1934);
+}
+
+.signin-signup-btns {
+  width: 70%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  gap: 15px;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+
+.be-bookworm {
+  margin-bottom: 6%;
+  font-size: 20px;
+  font-weight: 900;
+  color: #f0f8ff;
+  font-family: Georgia, Times New Roman, Times, serif;
+}
+
+/*# sourceMappingURL=src_components_homeUI_b52d8e.css.map*/

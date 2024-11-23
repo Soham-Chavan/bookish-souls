@@ -1,0 +1,141 @@
+/* [project]/src/app/signup/signup.css [app-client] (css) */
+@keyframes wave {
+  0% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.animate-wave-background {
+  background: linear-gradient(270deg, indigo, #864300, #102653);
+  background-size: 200% 200%;
+  animation: 4s ease-in-out infinite wave;
+}
+
+.bg-orange-600 {
+  background-color: #854403;
+}
+
+.bg-orange-700 {
+  background-color: #934b08;
+}
+
+.bg-purple-900 {
+  background-color: indigo;
+}
+
+.bg-blue-900 {
+  background-color: #283a5e;
+}
+
+.via-orange-700 {
+  background-color: #794007;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4a1f77, #2b0c56);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  position: relative;
+  animation: 2s forwards fadeIn, 10s ease-in-out infinite wave;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.signup-form {
+  background: #000000b3;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px #0000004d;
+  width: 350px;
+  text-align: center;
+  animation: 2s forwards fadeIn;
+  opacity: 0;
+  animation-delay: .5s;
+}
+
+.signup-message {
+  color: #d4a2ff;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin: 5%;
+}
+
+.signup-label {
+  font-size: 1.1rem;
+  color: #d1d1d1;
+  display: inline-block;
+  margin: 12px 0 5px;
+  text-align: left;
+  width: 100%;
+}
+
+.signup-input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #8e44ad;
+  background: #3a1f59;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  transition: all .3s;
+  animation: 1.5s forwards fadeIn;
+  opacity: 0;
+  animation-delay: 1s;
+}
+
+.signup-input-field:focus {
+  border-color: #9b59b6;
+  background-color: #2f1a3f;
+  outline: none;
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #9b59b6;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .3s;
+  margin-top: 10px;
+  animation: 1.5s forwards fadeIn;
+  opacity: 0;
+  animation-delay: 1.5s;
+}
+
+.signup-btn:hover {
+  background-color: #8e44ad;
+}
+
+.signup-btn:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+
+/*# sourceMappingURL=src_app_signup_signup_d0d68d.css.map*/

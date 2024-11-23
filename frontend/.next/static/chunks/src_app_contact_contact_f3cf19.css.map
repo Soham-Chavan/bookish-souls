@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/USER/Documents/node_js_mysql_prac/frontend/src/app/contact/contact.css"],"sourcesContent":[".submit{\r\n    background: #000;\r\n    color: aliceblue;\r\n    padding: 10px;\r\n    margin-top: 15px;\r\n}\r\n\r\n\r\n.form-container{\r\n    width: 100%;\r\n    margin: auto;\r\n    height: 100vh;\r\n    background-color: bisque;\r\n    align-content: center;\r\n    justify-content: center;\r\n    justify-items: center;\r\n    \r\n}\r\n\r\n.main-form{\r\n    background-color: blueviolet;\r\n    display: flex;\r\n    padding: 5%;\r\n    flex-direction: column;\r\n    flex-wrap: wrap;\r\n    flex-shrink: 1;\r\n    flex-grow: 1;\r\n    width: fit-content;\r\n}\r\n\r\n.msg{\r\n    height: 100px;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;AAQA;;;;;;;;;;AAWA;;;;;;;;;;;AAWA"}},
+    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

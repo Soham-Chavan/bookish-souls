@@ -1,0 +1,33 @@
+.submit{
+    background: #000;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+.form-container{
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    background-color: bisque;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.main-form{
+    background-color: blueviolet;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: fit-content;
+}
+
+.msg{
+    height: 100px;
+}

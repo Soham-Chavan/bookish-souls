@@ -1,0 +1,143 @@
+@keyframes wave {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.animate-wave-background {
+    background: linear-gradient(270deg, #4b0082, #864300, #102653);
+    background-size: 200% 200%;
+    animation: wave 4s ease-in-out infinite;
+}
+
+/* Custom colors for form and background */
+.bg-orange-600 {
+    background-color: #854403; /* Dark Orange */
+}
+
+.bg-orange-700 {
+    background-color: #934b08; /* Darker Orange */
+}
+
+.bg-purple-900 {
+    background-color: #4b0082; /* Dark Purple */
+}
+
+.bg-blue-900 {
+    background-color: #283a5e; /* Dark Blue */
+}
+
+.via-orange-700 {
+    background-color: #794007; /* Dark Orange */
+}
+
+.text-lg {
+    font-size: 1.125rem; /* Slightly larger text for readability */
+}
+
+/* Background container with animation */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4a1f77, #2b0c56);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    animation: fadeIn 2s ease forwards, wave 10s ease-in-out infinite;
+    opacity: 0; /* Start with the container hidden */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Sign-up form styles */
+.signup-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+    animation: fadeIn 2s ease forwards; /* Apply fade-in animation */
+    opacity: 0; /* Start with the form hidden */
+    animation-delay: 0.5s; /* Slight delay before form fades in */
+}
+
+/* Form title */
+.signup-message {
+    color: #d4a2ff; /* Soft light purple */
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin: 5%;
+}
+
+/* Label and input field styles */
+.signup-label {
+    font-size: 1.1rem;
+    color: #d1d1d1;
+    display: inline-block; /* Aligns the label with the input */
+    margin: 12px 0 5px;
+    text-align: left; /* Align label text to the left */
+    width: 100%; /* Ensure the label spans the full width */
+}
+
+/* Input fields */
+.signup-input-field {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #8e44ad; /* Dark purple border */
+    background: #3a1f59; /* Dark purple background for inputs */
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    animation: fadeIn 1.5s ease forwards;
+    opacity: 0; /* Start with inputs hidden */
+    animation-delay: 1s; /* Slight delay before inputs fade in */
+}
+
+.signup-input-field:focus {
+    border-color: #9b59b6; /* Light purple on focus */
+    background-color: #2f1a3f;
+    outline: none;
+}
+
+/* Button styles */
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #9b59b6; /* Light purple */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    animation: fadeIn 1.5s ease forwards;
+    opacity: 0; /* Start with button hidden */
+    animation-delay: 1.5s; /* Slight delay before button fades in */
+}
+
+.signup-btn:hover {
+    background-color: #8e44ad; /* Darker purple on hover */
+}
+
+.signup-btn:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}

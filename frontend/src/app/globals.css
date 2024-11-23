@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.neon-text {
+  color: #39FF14;
+  text-shadow: 0 0 5px #39FF14, 0 0 5px #39FF14, 0 0 10px #39FF14;
+}
+
+.neon-title {
+  color: #ffffff; /* White text */
+  text-shadow:
+      0 0 8px #ffffff,   /* Soft white glow */
+      0 0 15px #ffffff,  /* Stronger white glow */
+      -1px -1px 0 #000000, /* Black outline - top left */
+      1px -1px 0 #000000,  /* Black outline - top right */
+      -1px 1px 0 #000000,  /* Black outline - bottom left */
+      1px 1px 0 #000000;   /* Black outline - bottom right */
+  background-color: #000000;
+}
+
+
+
+
+
+
